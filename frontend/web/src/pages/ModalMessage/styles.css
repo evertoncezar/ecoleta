@@ -1,0 +1,87 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+.modal {
+
+  background: #0E0A14;
+  opacity: 0.95;
+  z-index: 100;
+  position: relative;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  width: 800px;
+  height: 600px;
+/*   max-width: 500px; */
+  padding: 2rem;
+ 
+}
+
+.modal-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-close-button {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  opacity: .3;
+  cursor: pointer;
+  border: none;
+}
+
+button {
+  font-size: .9rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  padding: .3rem 1rem;
+  margin-left: .5rem;
+}
+
+span svg {
+    color:  #34CB79;
+    width: 40px;
+    height: 40px;
+    position: fixed; 
+    margin: 11rem 20rem; 
+}
+
+p {
+  /* Mensagem */
+
+position: relative; 
+margin: 5rem 5rem; 
+padding: 10rem;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+/* line-height: 42px; */
+
+/* Background */
+color: #F0F0F5;
+}
+
